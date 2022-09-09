@@ -13,6 +13,7 @@ const (
 	ACTION_UPDATE   = "UPDATE"
 	ACTION_GET      = "GET"
 	ACTION_DELETE   = "DELETE"
+	ACTION_LIST     = "LIST"
 	ACTION_REGISTER = "REGISTER"
 	ACTION_LOGIN    = "LOGIN"
 )
@@ -28,6 +29,7 @@ var (
 		ACTION_UPDATE:   LogRequest_UPDATE,
 		ACTION_GET:      LogRequest_GET,
 		ACTION_DELETE:   LogRequest_DELETE,
+		ACTION_LIST:     LogRequest_LIST,
 		ACTION_REGISTER: LogRequest_REGISTER,
 		ACTION_LOGIN:    LogRequest_LOGIN,
 	}

@@ -14,6 +14,7 @@ message LogRequest {
     UPDATE = 3;
     GET = 4;
     DELETE = 5;
+    LIST = 6;
   }
   enum Entities {
     USER = 0;
